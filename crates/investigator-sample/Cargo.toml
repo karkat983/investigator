@@ -1,0 +1,22 @@
+[package]
+name = "investigator-sample"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "A sample grounded investigation: finding to agent event to incident and report."
+
+[[bin]]
+name = "investigator-sample"
+path = "src/main.rs"
+
+[dependencies]
+investigator-ground = { path = "../investigator-ground" }
+investigator-incident = { path = "../investigator-incident" }
+investigator-report = { path = "../investigator-report" }
+lattivant-event.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
