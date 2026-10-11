@@ -1,0 +1,16 @@
+[package]
+name = "investigator-incident"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Incident and case management: a state machine with immutable audit history."
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
