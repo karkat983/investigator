@@ -1,0 +1,17 @@
+[package]
+name = "investigator-ground"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Evidence-grounded investigation: read-only tools, cited claims, and a post-checker."
+
+[dependencies]
+lattivant-event.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
