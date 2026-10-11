@@ -1,0 +1,16 @@
+[package]
+name = "investigator-report"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Investigation view models and report export: observed vs inferred, evidence, redaction."
+
+[dependencies]
+investigator-ground = { path = "../investigator-ground" }
+investigator-incident = { path = "../investigator-incident" }
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
